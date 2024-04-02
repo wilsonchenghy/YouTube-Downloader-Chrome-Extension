@@ -1,0 +1,71 @@
+@import url(https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;1,400&display=swap);
+
+* {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+
+body {
+    background: url('background2.jpg') no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+
+body {
+    width: 420px;
+    height: 210px;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;   /* height needed to be specify so that the vertical align-items work */
+    flex-direction: column;
+}
+
+.wrapper{
+    width: 220px;
+    height: 160px;
+    /* background-color: rgba(0, 0, 0, 0.375);
+    backdrop-filter: blur(10px); */
+
+    color: white;
+
+    /* Uncomment the following if that appearance is what you prefered */
+    /* border-radius: 20px;
+    border: 0.7px solid white; */
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+form{
+    padding: 5px;
+    margin: 10px;
+    border: 0.7px solid white;
+    border-radius: 10px;
+    font-size: 12px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 385px;
+
+    background-color: rgba(0, 0, 0, 0.375);
+    backdrop-filter: blur(9px);
+}
+
+input{
+    border-radius: 10px;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+button{
+    border-radius: 10px;
+    font-size: 12px;
+}

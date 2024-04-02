@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width = device-width, initial-scale = 1.0">
+        <title>Youtube Downloader Website</title>
+
+        <link rel="stylesheet" href="/static/styles.css">
+    </head>
+
+    <body>
+        <div class="container">
+            <div class="wrapper">
+                <form>
+                    <label for="youTubeUrl">Enter YouTubeURL : </label>
+                    <input type="text" id="youTubeUrl" name="youTubeUrl" required>
+                    <button id="downloadVideoButton">Download Video</button>
+                </form>
+
+                <form>
+                    <label for="playlistUrl">Enter Playlist URL : </label>
+                    <input type="text" id="playlistUrl" name="playlistUrl" required>
+                    <button id="downloadPlaylistButton">Download Playlist</button>
+                </form>
+            </div>
+        </div>
+        <script src="../function.js"></script>
+    </body>
+</html>
